@@ -1,0 +1,27 @@
+{
+    "name": "morphcms/vue-slider-module",
+    "description": "",
+    "authors": [
+        {
+            "name": "Codrin Axinte",
+            "email": "codrin.axinte@binomeway.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\VueSlider\\": ""
+
+        }
+    },
+    "require": {
+        "whitecube/nova-flexible-content": "^v1.0.0"
+    }
+}
